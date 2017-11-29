@@ -1,0 +1,81 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+  background:rgba(220, 247, 243,0.5);
+}
+
+
+h1 {
+  
+text-align: center;
+margin: 200px;
+font-style: italic;
+  
+}
+
+
+.muddle {
+  background-image:url("https://cdn.gomix.com/534f303d-e3e2-432e-bbd7-4fca62f44d23%2FScreen%20Shot%202017-03-06%20at%208.33.51%20PM.png");
+  width:600px;
+  height:600px;
+  background-size:contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  color: white;
+  text-align:center;
+  
+}
+
+.husky {
+   background-image:url("https://cdn.gomix.com/534f303d-e3e2-432e-bbd7-4fca62f44d23%2FScreen%20Shot%202017-03-06%20at%208.33.19%20PM.png");
+    width:500px;
+    height:500px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    color: white;
+    text-align:center;
+}
+
+.catz {
+   background-image:url("https://cdn.gomix.com/a250cad6-a80d-422a-89f5-3d929a270fd6%2Fistock_000029607434_medium.jpg");
+    width:800px;
+    height:800px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    color: white;
+    text-align:center;
+}
+
+.weird {
+   background-image:url("https://cdn.gomix.com/a250cad6-a80d-422a-89f5-3d929a270fd6%2FdXZsUUb2hkOgQxwIOsEd_1082119706.jpeg");
+    width:900px;
+    height:900px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    color: white;
+    text-align:center;
+}
+
+
+
+
+
+
+#grandq { 
+  font-size:20px;
+  display:inline-block;
+}

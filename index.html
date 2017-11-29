@@ -1,0 +1,105 @@
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: http://mozilla.github.io/nunjucks/ -->
+<!-- jade: http://jade-lang.com/ -->
+<!-- haml: http://haml.info/tutorial.html -->
+<!-- hbs(handlebars): http://handlebarsjs.com/expressions.html -->
+
+<!DOCTYPE html><html>
+  <head>
+    <title>DOGGS!</title>
+    
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script>
+       $(document).ready(function(){      
+        
+        $("#grandq").click(function(){
+          
+          var dogs = prompt("How many puppies do you have?");
+          console.log(dogs);        
+          
+        if(dogs == 1) 
+            {
+            console.log("CUUUTE!");
+            $("#1dog").append("CUUUTE!");
+            $("#1dog").addClass("husky");
+              
+            }
+          
+        else if (dogs > 1) {
+            console.log("Perfect");
+            $("#1dog").append("Perfect");
+            $("#1dog").addClass("muddle");          
+          } 
+          
+          else if (dogs < 1) {
+            console.log("GETADOG!");
+            $("#1dog").append("GETADOG!");
+            $("#1dog").addClass("catz");
+            
+            }
+          
+          else {
+            console.log("You like cats or something")
+            $("#1dog").append("?");
+            $("#1dog").addClass("weird");
+          }
+          
+            var kitties = prompt("Do you like cats too?");
+          
+          if(kitties == "yes") {
+            
+            console.log("thatsok");
+            
+            
+          } else if (kitties == "no") {
+
+            console.log("thatsok");
+          }
+          
+        
+          
+          
+          
+        });
+       
+       
+       
+       
+       }); 
+        
+      
+        
+       
+      
+      
+      
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        A DOG A DAY KEEPS THE DOCTOR AWAY
+      </h1>
+    </header>
+    
+    
+    
+
+ <div class="1q" id="grandq">
+   
+      I have a question..
+   
+    </div>
+    
+    <div class="q" id="1dog">
+   
+    
+   
+    </div>
+    
+    
+</body>
+</html>
